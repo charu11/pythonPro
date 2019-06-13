@@ -1,4 +1,5 @@
-name = "charun"
-age = "25"
+my_num = 5
+my_num1 = 4
 
-print(name + "is my name and my age is " + age)
+
+print(pow(my_num + my_num1))
