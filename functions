@@ -1,0 +1,14 @@
+#def say_hi(name):
+ #   print("hello " + name)
+
+#say_hi("charun")
+
+
+# .....................return statement
+
+
+
+def cube(num):
+    return num*num*num
+
+print(cube(4))
