@@ -7,6 +7,8 @@ while i <= 10:
 print("done with the while loop")
 
 
+# guessing game
+
 secret_word = "arsenal FC"
 guess = ""
 guess_count = 0
