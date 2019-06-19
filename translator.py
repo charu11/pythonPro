@@ -8,6 +8,7 @@ def translation(phrase):
     translate = ""
     for letter in phrase:
         if letter.lower() in "aeiou":
+
             if letter.isupper() :
                 translate = translate + "G"
             else:
@@ -19,3 +20,20 @@ def translation(phrase):
     return translate
 
 print(translation(input("Enter a phrase : ")))
+
+
+
+#comments
+
+'''
+vfhjgldgrghjbfl
+t
+hthbyyth
+rb
+
+tyj
+
+t
+yj
+et
+'''
