@@ -1,6 +1,8 @@
-from student import Student
+from chef import Chef
+from chineseChef import ChineseChef
 
-student1 = Student("krus", "4th grade", 2.2, False)
-student2 = Student("laca_boom", "3rd grade", 3.3, True)
-print(student2.gpa)
+myChef = Chef()
+myChef.chicken_soup()
 
+myChineseChef = ChineseChef()
+myChineseChef.chicken_soup()

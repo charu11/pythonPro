@@ -1,6 +1,12 @@
 class Student:
-    def __init__(self, name, grade, gpa, is_probation):
+    def __init__(self, name, major, grade, gpa):
         self.name = name
+        self.major = major
         self.grade = grade
         self.gpa = gpa
-        self.is_probation = is_probation
+
+    def is_honour(self):
+        if self.gpa >= 3.5:
+            return True
+        else:
+            return False
